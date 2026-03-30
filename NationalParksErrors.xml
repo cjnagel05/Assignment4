@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:noNamespaceSchemaLocation="NationalParks.xsd">
 
-	<NationalPark NearestAirport="FlagStaff" Rating="4.9">
+	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7496</Phone>
 		<Phone>888-297-2757</Phone>
 		<Phone>866-499-2574</Phone>
-		<Address>
+		<Address NearestAirport="FlagStaff">
 			<Number>8</Number>
 			<Street>S Entrance Road</Street>
 			<City>Grand Canyon</City>
@@ -29,9 +29,9 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Jackson Hole">
+	<NationalPark>
 		<Name>Grand Teton</Name>
-		<Address>
+		<Address NearestAirport="Jackson Hole">
 			<Number>103</Number>
 			<Street>Moose Wilson Road</Street>
 			<City>Moose</City>
@@ -40,11 +40,11 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Rapid City" Rating="4.7">
+	<NationalPark Rating="4.7">
 		<Name>Badlands</Name>
 		<Name>Badlands National Park</Name>
 		<Phone>605-433-5361</Phone>
-		<Address>
+		<Address NearestAirport="Rapid City">
 			<Number>25216</Number>
 			<Street>Ben Reifel Road</Street>
 			<City>Interior</City>
@@ -53,11 +53,11 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Bozeman">
+	<NationalPark>
 		<Name>Yellowstone</Name>
 		<Phone>307-344-7381</Phone>
 		<Phone>307-344-2117</Phone>
-		<Address>
+		<Address NearestAirport="Bozeman">
 			<Number>2</Number>
 			<Street>Off Grand Loop Road</Street>
 			<City>Yellowstone National Park</City>
